@@ -264,7 +264,7 @@ header {
     background: #c8c8c8;
     color: grey;
     float: left;
-    padding-left: 85px;
+    padding-left: 25px;
     padding-right: 3px;
     width: 31%; }
     .reviews .carousel-inner .slider .fa.fa-caret-right {
@@ -518,14 +518,16 @@ footer {
       font-size: 18px;
       margin: 9px auto;
       width: 60% !important; }
+  .reviews img {
+    height: 325px; }
   .reviews .fotorama .fotorama__stage {
     min-height: 500px !important; }
   .reviews .fotorama .slider {
     float: left;
     margin-top: 40px;
-    padding-left: 47px;
+    padding-left: 18px;
     padding-right: 3px;
-    width: 32%; }
+    width: 30%; }
   .advertising .col-md-3 {
     margin-top: 25px; }
     .advertising .col-md-3 h4 {
@@ -595,7 +597,7 @@ footer {
     margin-top: 13px;
     padding-left: 47px;
     padding-right: 19px;
-    width: 100%; }
+    width: 87%; }
   .reviews img {
     float: left;
     height: 250px;
@@ -674,7 +676,7 @@ footer {
     margin-top: 13px;
     padding-left: 47px;
     padding-right: 19px;
-    width: 100%; }
+    width: 80%; }
   .reviews img {
     float: left;
     height: 170px;
