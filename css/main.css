@@ -254,36 +254,6 @@ header {
 
 .reviews {
   position: relative; }
-  .reviews .col-md-12 {
-    padding: 0; }
-  .reviews .carousel-inner .slider {
-    background: #c8c8c8;
-    color: grey;
-    float: left;
-    padding-left: 25px;
-    padding-right: 3px;
-    width: 31%; }
-    .reviews .carousel-inner .slider .fa.fa-caret-right {
-      color: red;
-      font-size: 25px;
-      padding: 5px 6px 0 0; }
-  .reviews .carousel-inner .fa.fa-angle-right {
-    color: #6f6f6f;
-    font-size: 105px;
-    font-weight: bold;
-    position: absolute;
-    right: 7%;
-    top: 72%; }
-  .reviews .carousel-inner .fa.fa-angle-left {
-    color: #6f6f6f;
-    font-size: 105px;
-    font-weight: bold;
-    position: absolute;
-    left: 7%;
-    top: 72%; }
-
-.reviews {
-  position: relative; }
   .reviews h4 {
     color: #6f6f6f;
     margin: 65px 0 20px 77px;
@@ -302,14 +272,25 @@ header {
     .reviews .fotorama .slider {
       color: #6f6f6f;
       float: left;
-      padding-left: 85px;
+      margin-top: 40px;
+      padding-left: 17px !important;
       padding-right: 3px;
-      width: 31%;
-      margin-top: 40px; }
+      width: 29%; }
       .reviews .fotorama .slider .fa.fa-caret-right {
         color: red;
         font-size: 25px;
         padding: 5px 6px 0 0; }
+      .reviews .fotorama .slider .fa.fa-caret-right {
+        color: red;
+        font-size: 25px;
+        padding: 5px 6px 0 0; }
+      .reviews .fotorama .slider .fa.fa-angle-left {
+        color: #6f6f6f;
+        font-size: 105px;
+        font-weight: bold;
+        position: absolute;
+        left: 7%;
+        top: 72%; }
 
 .advertising {
   margin: 70px 0; }

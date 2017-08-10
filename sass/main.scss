@@ -319,43 +319,6 @@ header {
 
 .reviews {
 	position: relative;
-	.col-md-12  {
-		padding: 0;
-	}
-	.carousel-inner {
-		.slider {
-			background: $white-grey;
-		      color: grey;
-		      float: left;
-		      padding-left: 25px;
-		      padding-right: 3px;
-		      width: 31%;
-		    .fa.fa-caret-right {
-		        color: red;
-		        font-size: 25px;
-		        padding: 5px 6px 0 0;
-		    }
-		}
-		.fa.fa-angle-right {
-		    color: $grey;
-		    font-size: 105px;
-		    font-weight: bold;
-		    position: absolute;
-		    right: 7%;
-		    top: 72%;
-		}
-		.fa.fa-angle-left {
-		    color: $grey;
-		    font-size: 105px;
-		    font-weight: bold;
-		    position: absolute;
-		    left: 7%;
-		    top: 72%;
-		}
-	}	
-}
-.reviews {
-	position: relative;
 	h4 {
 		color: #6f6f6f;
 		    margin: 65px 0 20px 77px;
@@ -375,15 +338,28 @@ header {
 		height: auto;
 		.slider {
 			color: $grey;
-			float: left;
-			padding-left: 85px;
-			padding-right: 3px;
-			width: 31%;
-			margin-top: 40px;
+			    float: left;
+			    margin-top: 40px;
+			    padding-left: 17px !important;
+			    padding-right: 3px;
+			    width: 29%;
+			    .fa.fa-caret-right {
+			        color: red;
+			        font-size: 25px;
+			        padding: 5px 6px 0 0;
+			    }
 			.fa.fa-caret-right {
 			    color: red;
 			    font-size: 25px;
 			    padding: 5px 6px 0 0;
+			}
+			.fa.fa-angle-left {
+			    color: $grey;
+			    font-size: 105px;
+			    font-weight: bold;
+			    position: absolute;
+			    left: 7%;
+			    top: 72%;
 			}
 		}
 	}
@@ -399,7 +375,6 @@ header {
 		text-transform: uppercase;
 		border-left: 1px solid $grey;
 		padding-left: 18px;
-		
 	}
 	.first_h {
 		border-left: none;

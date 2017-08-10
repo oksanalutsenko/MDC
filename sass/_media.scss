@@ -53,6 +53,18 @@
 		  }
 		}
 	}
+	.reviews {
+		.fotorama {
+		 	.slider {
+			    color: #6f6f6f;
+			    float: left;
+			    margin-top: 40px;
+			    padding-left: 17px;
+			    padding-right: 10px;
+			    width: 29%;
+			}    
+		}	   
+	}
 	.advertising h4 {
 	    font-size: 18px;
 	    line-height: 30px;
@@ -173,7 +185,7 @@
 			    margin-top: 40px;
 			    padding-left: 18px;
 			    padding-right: 3px;
-			    width: 30%;
+			    width: 29%;
 			}
 		}
 	}
