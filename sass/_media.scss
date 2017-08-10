@@ -1,0 +1,462 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width:1200px) {
+	header .top-header  {
+		h4 {
+		    margin-left: -25px;
+		    margin-top: 70px;
+		}
+		 button {
+		    position: absolute;
+		    right: 12%;
+		    top: 40px;
+		    width: 220px;
+		}
+		.eng {
+		    position: absolute;
+		    right: -26%;
+		    top: 50px;
+		}
+		 .row-button {
+		    left: -32%;
+		    position: absolute;
+		    top: 130px;
+		}
+	}
+	.top-menu .menu-right {
+	   margin: 40px auto;
+	      padding: 0;
+	      text-align: center;
+	}   
+	.task {
+		 .main_task {
+		 	h5 {
+			    margin-top: 7px;
+			}	
+			h3 {
+			    font-size: 18px;
+			    line-height: 32px;
+			    font-size: 15px;
+			}
+		 }
+	}
+	.specialists {
+		.slider-1 {
+		   float: left;
+		   height: auto;
+		   margin: 0 -36px 6px 51px !important;
+		    small {
+		    margin: 0 !important;
+		    text-align: center;
+		  }
+		}
+	}
+	.advertising h4 {
+	    font-size: 18px;
+	    line-height: 30px;
+	}
+	.license img {
+	    display: inline;
+	    margin: 45px 28px;
+	}
+	footer {
+		.address {
+			.text-left {
+			    line-height: 12px;
+			    width: 115%;
+			 }  
+			 button {
+			     font-size: 11px;
+			     width: 135px;
+			} 
+			.time {
+				padding-left: 27px;
+			}
+		}
+	}
+}
+
+/*Medium Devices, Desktops*/
+@media only screen and (max-width: 992px) {
+	header .top-header {
+		 h4 {
+		    margin-left: -35px;
+		    margin-top: 40px;
+		}
+		.logo {
+		    margin: 25px 40px 35px -16px;
+		}
+		 button {
+		   position: absolute;
+		     right: 25%;
+		     top: 49px;
+		     width: 200px
+		}
+		.eng {
+		   position: absolute;
+		       right: -10%;
+		       top: 61px;
+		}
+		.row-button {
+		   left: -47%;
+		      position: absolute;
+		      top: 150px;
+		}
+	}
+	.top-menu {
+		 .menu-right {
+		    margin: 40px auto 35px;
+		    padding: 0; 
+		    li {
+		    	padding: 0 8px 0 8px;
+		    	span {
+		    		padding-left: 15px;
+		    	}
+		    }
+		}
+	}
+	.task {
+		.relation {
+			.relation_content {
+			    height: 90%;
+			    left: 2%;
+			    margin: 50px auto;
+			    position: absolute;
+			    top: 0;
+			    width: 96%;
+			}
+		}
+		.main_task {
+			h3 {
+			    font-size: 24px;
+			    line-height: 32px;
+			}
+			h5 {
+			    font-size: 19px;
+			}
+		}	
+	}
+	.specialists {
+		.carousel-inner {
+			.slider-1 {
+			    float: left;
+			    height: auto;
+			    margin: 0 -19px 6px 30px !important;
+			    width: 30%;
+			    h5 {
+			        color: #565656;
+			        font-size: 19px;
+			        margin: 15px 0 2px;
+			        text-align: center;
+			        width: 215px !important;
+			    }
+			    .social {
+			        font-size: 18px;
+			        margin: 9px auto;
+			        width: 60% !important;
+			    }
+			}
+		}
+	}
+	.reviews {
+		.fotorama {
+			.fotorama__stage {
+				min-height: 500px !important;
+			}
+			 .slider {
+			    float: left;
+			    margin-top: 40px;
+			    padding-left: 47px;
+			    padding-right: 3px;
+			    width: 32%;
+			}
+		}
+	}
+	.advertising {
+		.col-md-3 {
+			margin-top: 25px;
+			h4 {
+				border-left: none;
+			}
+		}
+	}
+	.license {
+		padding-top: 15px;
+		 img {
+		    display: inline;
+		    margin: 20px 28px;
+		}
+	}
+	footer {
+		.menu-right {
+		    text-align: center;
+		}
+	    ul li a {
+		    font-size: 16px;
+		    padding: 5px;
+		}
+		.col-md-2 {
+			button {
+			    display: block;
+			    font-size: 14px;
+			    height: 45px;
+			   margin: 15px auto 30px;
+			    width: 245px;
+			}   
+		} 
+	}
+}
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+	header {
+		.top-header {
+			min-height: 215px;
+			h4 {
+			font-size: 18px;
+			   line-height: 23px;
+			   margin-left: -60px;
+			   margin-top: 52px;
+			   width: 180%;
+			}	
+			 button {
+			  position: absolute;
+			 left: 9px;
+			  top: 47px;
+			  width: 194px;
+			}
+			.logo {
+			   margin: 25px 40px 0 0;
+			}
+			.eng {
+			 position: absolute;
+			  right: 4%;
+			  top: 8px;
+			}
+			.row-button {
+				display: none;
+			}
+		}
+	}
+	.top-menu {
+		line-height: 27px;
+	}
+	.task {
+		.main_task {
+			h3 {
+			    font-size: 18px;
+			    line-height: 30px;
+			}
+			h5 {
+			    font-size: 16px;
+			}
+		}
+	}
+	.specialists {
+		.carousel-inner {
+			.slider-1 {
+				h5 {
+				      font-size: 17px;
+				      margin: 10px auto !important;
+				      width: 122px !important;
+				}
+				.social {
+				  font-size: 18px;
+				     margin: 9px auto !important;
+				     width: 99% !important;
+				     margin-left: 18% !important;
+				}
+			}
+			img {
+			    width: 100% !important;
+			}
+		}
+	}
+	.reviews {
+		.fotorama {
+			.fotorama__stage {
+				min-height: 570px !important;
+			}
+			.slider {
+			    float: none;
+			    margin-top: 13px;
+			    padding-left: 47px;
+			    padding-right: 19px;
+			    width: 100%;
+			}
+		}
+		img {
+		    float: left;
+		    height: 250px;
+		    padding-right: 3px;
+		    width: 50%;
+		 }   
+	}
+	.advertising {
+		.col-md-3 {
+			padding: 0;
+			img {
+			    height: 110px;
+			}
+			h4 {
+			    font-size: 17px;
+			    line-height: 27px;
+			}
+		}
+	}
+	.license {
+		 p {
+		    font-size: 18px;
+		}   
+		 img {
+		    display: inline;
+		    margin: 20px 20px 10px -5px;
+		} 
+	}
+	footer {
+		.menu-right {
+	   		 text-align: center;
+	   	}
+	   	.address {
+	   		.time {
+	   			border-left: none;
+	   		}
+	   		.col-md-2 {
+	   			button {
+	   			    display: block;
+	   			    font-size: 14px;
+	   			    height: 45px;
+	   			    margin: 60px auto 30px;
+	   			    width: 100%;
+	   			}
+	   		}
+	   	}
+	}
+}
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+	header {
+		.top-header {
+		 	 button {
+			    display: block;
+			    left: 9px;
+			    margin: 0 auto;
+			    position: absolute;
+			    top: 37px;
+			    width: 194px;
+			}
+			.eng {
+			    left: 9%;
+			    position: absolute;
+			    top: 5px;
+			}
+			h4 {
+			    line-height: 21px;
+			    margin-bottom: 16px;
+			    margin-left: -33px;
+			    margin-top: 36px;
+			    width: 165%;
+			}
+			.logo {
+			    margin: 25px 40px 0 -8px;
+			    img {
+			    	width: 160px;
+			    }
+			    .img-responsive {
+			    	max-width: 110%;
+			    }
+			}    
+		}
+	}
+	.task {
+		.main_task {
+			h3 {
+			    font-size: 17px;
+			    line-height: 28px;
+			}
+			h5 {
+			    font-size: 15px;
+			}
+		}
+	}
+	.specialists {
+		.carousel-inner {
+			.slider-1 {
+			    float: none !important;
+			    height: auto;
+			    margin: 0 auto !important;
+			    width: 75% !important;
+			    .social {
+			        font-size: 18px;
+			        margin: 9px auto 20px;
+			        text-align: center;
+			        width: 64% !important;
+			     }
+			}   
+		}
+	}
+	.reviews {
+		h4 {
+		    font-size: 20px;
+		    margin: 65px 0 20px 12px;
+		}
+		.fotorama {
+			.fotorama__stage {
+				min-height: 830px !important;
+			}
+			.slider {
+			    float: none;
+			    margin-top: 13px;
+			    padding-left: 47px;
+			    padding-right: 19px;
+			    width: 100%;
+			}
+		}
+		img {
+		    float: left;
+		    height: 170px;
+		    padding-right: 3px;
+		    width: 50%;
+		}   
+	}
+	.advertising {
+		.col-md-3.col-sm-6.col-xs-6 {
+		    width: 100%;
+		}
+	}
+	.license img {
+	    display: inline;
+	    margin: 20px 20px 10px -5px;
+	}
+	footer {
+		.col-md-3 {
+		    width: 90%;
+		}
+		.address {
+			.time {
+			    padding-left: 5px;
+			}
+			.col-md-2 {
+				button {
+					width: 200px;
+				}
+			}
+			.col-md-3 {
+				.fa-clock-o {
+				    padding-left: 0;
+				}
+			}
+		}
+	}
+}
+
+
+	
+
+
+
+
+
